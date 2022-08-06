@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+/* <-----Header------> */
+.header {
+    font-size: 30px;
+    height: 70px;
+    font-style: inherit;
+    background-color: gainsboro;
+    padding: 20px;
+    text-decoration: double;
+}
+.navbar-header {
+    text-align: center;
+    width: 100%;
+    text-decoration: double;
+    padding: 0;
+    border: 0;
+
+}
+/*      <------------------------Main Content-------------------> */
+.chicken , .beef , .sushi {
+    background-color: rgb(144, 151, 157);
+    padding:0 ;
+    border: 2px snow solid;
+    margin-top: 20px;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right:20px;
+}
+.chicken h2 , .beef h2 , .sushi h2 {
+    text-align: center;
+    font-family: 'Lora', serif;
+    text-decoration: double;
+    font-weight: bold;
+}
+.chicken p , .beef p , .sushi p {
+    font-size: 1em;
+    margin: 0 auto 15px;
+    vertical-align: middle
+}
+
+.container {
+    padding-bottom:15px;
+}
+
+/* <-------------------dropdown---------------> */
+
+#nav-list {
+    background-color:cadetblue;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    margin: 0;
+    /* border: 2px solid green; */
+    justify-items: center;
+}
+.navbar-header button {
+    margin-top: -30px;
+}
+
+/* <-----------------Extra Small Device----------------> */
+@media (max-width:479px){
+    .navbar-header button {
+        margin-top:-45px;
+        float: right;
+        
+    }
+}
